@@ -1,0 +1,23 @@
+{
+  "name": "real-time-chat-app",
+  "version": "1.0.0",
+  "description": "This is real time chat application using nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitykaran/real-time-chat-app.git"
+  },
+  "author": "Amit Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitykaran/real-time-chat-app/issues"
+  },
+  "homepage": "https://github.com/amitykaran/real-time-chat-app#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
