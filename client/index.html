@@ -1,7 +1,18 @@
 <html>
     <head>
         <link rel="stylesheet" href="./chat.css">
-        <script src="./chat-app.js" ></script>
+        <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="chat-app.js" ></script>
     </head>
-    <body></body>
+    <body>
+        <div class="chat-app">
+            <div class="chat-users"></div>
+            <div class="chat-window">
+                <div class="chat-box">
+
+                </div>
+                <div class="chat-input-segment"></div>
+            </div>
+        </div>
+    </body>
 </html>
